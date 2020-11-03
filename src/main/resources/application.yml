@@ -1,0 +1,14 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+
+    port: 587
+
+    username: myroom123@bible.ac.kr # 준영님 from 메일 주소로 수정
+    password: # 준영님 메일 password로 수정
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
